@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Interstate";
+  src: url("./shared/assets/fonts/interstate-bold-cond-58b64162258ca.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Interstate-light";
+  src: url("./shared/assets/fonts/interstate-light-cond-58b64220b1490.otf")
+    format("opentype");
+}
+
+body {
+  font-family: "Interstate";
+  background-color: #f5f5f5;
+}
+
+.fontLight {
+  font-family: "Interstate-light";
+}
+
+.no-resize {
+  resize: none;
+}
